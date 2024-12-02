@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
 
-chrome_service = Service('/usr/local/bin/chromedriver') #путь до хромдрайвера
+chrome_service = Service('/usr/local/bin/chromedriver') #путь до хромдрайвера (вставить свой)
 
 def read_data_from_csv(file_path):
     data_list = []
@@ -99,7 +99,7 @@ def register_account(data):
     finally:
         driver.quit()
 
-data_list = read_data_from_csv('/Users/admin/Desktop/cryptoProg/WL/data.csv') #путь до CSV файла в котором хранятся данные аккаунтов
+data_list = read_data_from_csv('Ваш путь') #путь до CSV файла в котором хранятся данные аккаунтов
 for data in data_list:
     register_account(data)
     time.sleep(20)
