@@ -1,4 +1,21 @@
-Софт для регистрации аккаунтов для ****** вайтлиста 
+**Whitelist Account Auto-Register Tool for ******** **
+
+Quick Setup FAQ:
+1. Pop open your terminal and run: pip install selenium
+2. Grab the Chrome driver (needed for Selenium to do its thing). Best bet—get it straight from the official site
+3. Toss that driver into your PATH. On Mac, just run: sudo mv chromedriver /usr/local/bin/
+4. Download VS Code (seriously, just do it) from here
+5. Fire up main.py. But first—drop your info into data.csv like this: twitter,wallet,email,discord
+6. In the code:
+7. Line 9 → plug in the path to your Chrome driver
+8. Line 102 → set the path to your data.csv file
+9. Hit run. Once it wraps up, you’ll see: "Регистрация завершена для всех записей." (aka “All accounts registered, you’re good to go!”)
+
+
+=============================================================================================================================
+
+
+**Софт для регистрации аккаунтов для ****** вайтлиста**
 
 FAQ:
 1. В командну строку/терминал ввести команду «pip install selenium»
